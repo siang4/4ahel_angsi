@@ -1,5 +1,6 @@
 #AAP10_Angerer
 #Changed by Patrick
+#Changed by Arian
 #FIR-Filter Programm
 from time import time
 pow = 3023
@@ -17,3 +18,4 @@ for i in range(2048):
     values[1:] = values[:-1]
     values[0] = random() % 100
     print(" " * int(mac(coeff, values)), "*", sep='')
+print("Created by Simon, first change by Patrick and second change by Arian")
